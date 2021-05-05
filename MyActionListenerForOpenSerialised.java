@@ -22,16 +22,16 @@ try {
     ObjectInputStream ois = new ObjectInputStream(fichier);
     String s = (String) ois.readObject();
 
-    String []lines =s.split("\n");
+   /*String []lines =s.split("\n");
     String[][] data = new String[100][];
     int i=0;
-    ArrayList<Account> a = new ArrayList<Account>();
+    /*ArrayList<Account> a = new ArrayList<Account>();
     for(String line :lines){
         a.add(new Account(line.split(":")[0],line.split(":")[1],
         line.split(":")[2],line.split(":")[3],line.split(":")[4],line.split(":")[5]));
-        i++;
-    }
-    f.ta.setText(a.toString());
+        i++;}*/
+        
+    f.ta.setText(s);
 } catch (java.io.IOException ex) {
     ex.printStackTrace();
 } catch (ClassNotFoundException ex1) {
