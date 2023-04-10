@@ -1,3 +1,3 @@
 # tp8
-This is a demo for my studies project on developing user interfaces using JAVA JWT .
-The result is an interface to edit files .
+This is a demo for my project developed during the course of JAVA it consists of building user interfaces using JAVA JWT .
+This project is a text editor with various features .
